@@ -1,0 +1,78 @@
+nav{
+    background-color: #5e60ce;
+    position: fixed;
+    width:100%;
+    margin-top:-97px;
+}
+a{
+        text-decoration: none;
+        color:white;
+        font-size: 20px;
+}
+
+li{
+    display:inline-block;
+    margin-right: 20px;
+    
+    
+}
+li:last-of-type{
+    position: absolute;
+    right: 30px;
+    content:"\260E";
+
+}
+#main::after{
+    content:"\260E";
+}
+#main::before{
+    content:"\260E";
+}
+
+#main{
+    border: 2px black;
+    background-color: lightseagreen;
+    position:fixed;
+    margin-top:-36px;
+    width:100%;
+    font-size: 26px;
+    text-align:center;
+}
+#special{
+    margin-top:90px;
+    position:sticky;
+
+}
+
+.t{
+    border:2px black;
+    background-color: #4ea8de;
+    
+    position:sticky;
+    margin-left: 20%;
+    top:95px;
+    width:60%;
+    }
+.tb{
+    border:collapse;
+    width:100%;
+    text-align: center;
+    margin-top: 20px;
+}
+tbody tr:nth-child(even) {
+        background-color:#f2f2f2;;
+      }
+      th{
+          background-color: #99d98c;
+          padding:8px;
+      }
+td{
+        text-align: left;
+        padding:8px;
+        
+    }
+    div{
+        text-align: center;
+        font-size: 26px;
+    }
+
