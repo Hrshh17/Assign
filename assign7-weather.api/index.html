@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a81368914c.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="main">
+        <div class="input">
+            <input type="text" id="inp" class="inp" placeholder="Enter city name...." autocomplete="off">
+            <button class="search"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="weather">
+            <div class="date" id="date"></div><hr>
+            <h2 class="city" id="city"></h2>
+            <h1 class="temp" id="temp"></h1>
+            <div class="flex">
+                <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" id="icon">
+                <div class="clouds" id="clouds"></div>
+            </div>
+            <div class="range" id="range"></div>
+            <div class="humidity" id="humidity"></div>
+            <div class="wind" id="wind"></div>
+           
+        </div>
+        <hr>
+        <footer>
+            <h6>Designed & Developed by &copy; Harsh Vardhan</h6>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
